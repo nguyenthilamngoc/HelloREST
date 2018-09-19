@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>Les planètes</title>
+    <script src="objet.js">
+           </script>
+   </head>
+   <style>
+   </style>
+  <body >
+    <form autocomplete="on" method="GET"  name="formulaire1">
+      <table style="width: 320px; height: 110px;" border="1">
+       
+          <tr>
+            <td style="width: 290px;">Nom de la planète</td>
+            <td style="width: 710px;">
+            <input value=""  id="nom" type="text" onkeyup="controleplanete()"><br>
+            </td>        
+          </tr>
+          <tr>
+            <td>Nom trouvé</td>
+            <td><div id="nomtrouve"></div><br>
+            </td>
+          </tr>
+           <tr>
+            <td>diamètre</td>
+            <td><div id="diametre"></div><br>
+            </td>
+          </tr>
+           <tr>
+            <td>distance</td>
+            <td><div id="distance"></div><br>
+            </td>
+          </tr>   
+      </table>
+ </form>
+  </body>
+</html>
